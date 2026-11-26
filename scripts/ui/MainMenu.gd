@@ -60,7 +60,7 @@ func _ready() -> void:
 	help.add_theme_color_override("font_color", Color(0.82, 0.88, 0.84))
 	add_child(help)
 	var credit := Label.new()
-	credit.text = "© S M Nazmuz Sakib   •   Map data © OpenStreetMap contributors (ODbL 1.0)   •   Fan-made game"
+	credit.text = "Made by S M Nazmuz Sakib   •   Map data © OpenStreetMap contributors (ODbL 1.0)"
 	credit.position = Vector2(62, 682)
 	credit.size = Vector2(1160, 24)
 	credit.add_theme_font_size_override("font_size", 14)
